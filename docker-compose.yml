@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  database:
+    image: surrealdb/surrealdb:latest
+    # networks:
+    #   bshop:
+    #     ipv4_address: 172.19.0.2
+    volumes:
+      - ./database/data:/data
+    user: root
+    ports:
+      - "8000:8000"
+    entrypoint: 
+      - /surreal
+      - start
+      - file:/data/database.db
+      - --user
+      - root
+      - --pass
+      - root
+
+  sveltekit-app:
+    build:
+      context: ./web/.
+      dockerfile: Dockerfile
+      target: dev
+    ports:
+      - "5173:5173" 
+      - "3000:3000" 
+    environment:
+      NODE_ENV: development 
+    volumes:
+      - ./web/.:/app 
+      - ./web/node_modules:/app/node_modules 
+
+# networks:
+#   bshop:
+#     driver: bridge
+#     ipam:
+#       config:
+#         - subnet: 172.19.0.0/16

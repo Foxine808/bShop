@@ -1,0 +1,728 @@
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+
+  VITE v5.4.16  ready in 1256 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+6:51:47 AM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+6:51:47 AM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+6:51:47 AM [vite-plugin-svelte] src/routes/catalog/side_panel.svelte:133:4 Unused CSS selector ".mobile_container"
+https://svelte.dev/e/css_unused_selector
+6:51:49 AM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+6:51:49 AM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+6:51:49 AM [vite-plugin-svelte] src/routes/catalog/side_panel.svelte:133:4 Unused CSS selector ".mobile_container"
+https://svelte.dev/e/css_unused_selector
+8:45:06 AM [vite] hmr update /src/routes/+page.svelte
+8:45:15 AM [vite] hmr update /src/routes/+page.svelte
+8:45:35 AM [vite] hmr update /src/routes/+page.svelte
+8:45:53 AM [vite] hmr update /src/routes/category.svelte
+8:46:38 AM [vite] hmr update /src/routes/category.svelte, /src/routes/category.svelte?svelte&type=style&lang.css
+8:46:56 AM [vite] hmr update /src/routes/+page.svelte
+8:48:18 AM [vite] hmr update /src/routes/+page.svelte
+8:48:33 AM [vite] hmr update /src/routes/+page.svelte
+8:49:40 AM [vite] hmr update /src/routes/+page.svelte, /src/routes/+page.svelte?svelte&type=style&lang.css
+8:52:04 AM [vite] hmr update /src/routes/catalog/+page.svelte
+8:52:15 AM [vite] hmr update /src/routes/catalog/+page.svelte
+8:53:53 AM [vite] hmr update /src/routes/catalog/item/+page.svelte
+8:54:42 AM [vite] hmr update /src/routes/register/+page.svelte
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+
+  VITE v5.4.16  ready in 1250 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+
+  VITE v5.4.16  ready in 1227 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+5:42:05 PM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+5:42:05 PM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+5:42:07 PM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+5:42:07 PM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+5:42:10 PM [vite-plugin-svelte] src/routes/catalog/side_panel.svelte:133:4 Unused CSS selector ".mobile_container"
+https://svelte.dev/e/css_unused_selector
+5:44:01 PM [vite] hmr update /src/routes/about/+page.svelte
+5:44:01 PM [vite] Internal server error: Failed to resolve import "content.md" from "src/routes/about/+page.svelte". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte:2:22
+  6  |  
+  7  |  import * as $ from 'svelte/internal/client';
+  8  |  import Content from 'content.md';
+     |                       ^
+  9  |  
+  10 |  function _page($$anchor, $$props) {
+      at TransformPluginContext._formatError (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49257:41)
+      at TransformPluginContext.error (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49252:16)
+      at normalizeUrl (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64212:23)
+      at eventLoopTick (ext:core/01_core.js:175:7)
+      at async file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64344:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64271:7)
+      at async PluginContainer.transform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49098:18)
+      at async loadAndTransform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:51931:27)
+      at async viteTransformMiddleware (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:62044:24)
+5:44:32 PM [vite] hmr update /src/routes/about/+page.svelte
+5:44:32 PM [vite] Internal server error: Failed to resolve import "content.md?raw" from "src/routes/about/+page.svelte". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte:2:22
+  6  |  
+  7  |  import * as $ from 'svelte/internal/client';
+  8  |  import Content from 'content.md?raw';
+     |                       ^
+  9  |  
+  10 |  function _page($$anchor, $$props) {
+      at TransformPluginContext._formatError (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49257:41)
+      at TransformPluginContext.error (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49252:16)
+      at normalizeUrl (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64212:23)
+      at eventLoopTick (ext:core/01_core.js:175:7)
+      at async file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64344:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64271:7)
+      at async PluginContainer.transform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49098:18)
+      at async loadAndTransform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:51931:27)
+      at async viteTransformMiddleware (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:62044:24)
+5:44:42 PM [vite] hmr update /src/routes/about/+page.svelte
+5:44:42 PM [vite] Internal server error: Failed to resolve import "content.md?raw" from "src/routes/about/+page.svelte". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte:2:22
+  6  |  
+  7  |  import * as $ from 'svelte/internal/client';
+  8  |  import Content from 'content.md?raw';
+     |                       ^
+  9  |  
+  10 |  function _page($$anchor, $$props) {
+      at TransformPluginContext._formatError (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49257:41)
+      at TransformPluginContext.error (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49252:16)
+      at normalizeUrl (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64212:23)
+      at eventLoopTick (ext:core/01_core.js:175:7)
+      at async file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64344:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64271:7)
+      at async PluginContainer.transform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49098:18)
+      at async loadAndTransform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:51931:27)
+      at async viteTransformMiddleware (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:62044:24)
+5:44:48 PM [vite] Pre-transform error: No such file or directory (os error 2): readfile 'content.md'
+5:44:48 PM [vite] Error when evaluating SSR module /src/routes/about/+page.svelte: failed to import "content.md?raw"
+|- Error: Cannot find module 'content.md?raw' imported from '/home/bittermann/projects/bShop/web/src/routes/about/+page.svelte'
+    at nodeImport (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:53049:19)
+    at ssrImport (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:52916:22)
+    at eval (/home/bittermann/projects/bShop/web/src/routes/about/+page.svelte, <anonymous>:4:37)
+    at async instantiateModule (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:52974:5)
+
+Error: Cannot find module 'content.md?raw' imported from '/home/bittermann/projects/bShop/web/src/routes/about/+page.svelte'
+    at nodeImport (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:53049:19)
+    at ssrImport (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:52916:22)
+    at eval (/home/bittermann/projects/bShop/web/src/routes/about/+page.svelte, <anonymous>:4:37)
+    at async instantiateModule (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:52974:5) {
+  stack: "Error: Cannot find module 'content.md?raw' imported from '/home/bittermann/projects/bShop/web/src/routes/about/+page.svelte'\n" +
+    "    at nodeImport (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:53049:19)\n" +
+    "    at ssrImport (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:52916:22)\n" +
+    "    at eval (/home/bittermann/projects/bShop/web/src/routes/about/+page.svelte, <anonymous>:4:37)\n" +
+    "    at async instantiateModule (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:52974:5)",
+  code: "ERR_MODULE_NOT_FOUND"
+}
+Error: Cannot find module 'content.md?raw' imported from '/home/bittermann/projects/bShop/web/src/routes/about/+page.svelte'
+    at nodeImport (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:53049:19)
+    at ssrImport (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:52916:22)
+    at eval (/home/bittermann/projects/bShop/web/src/routes/about/+page.svelte, <anonymous>:4:37)
+    at async instantiateModule (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:52974:5) {
+  stack: "Error: Cannot find module 'content.md?raw' imported from '/home/bittermann/projects/bShop/web/src/routes/about/+page.svelte'\n" +
+    "    at nodeImport (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:53049:19)\n" +
+    "    at ssrImport (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:52916:22)\n" +
+    "    at eval (/home/bittermann/projects/bShop/web/src/routes/about/+page.svelte, <anonymous>:4:37)\n" +
+    "    at async instantiateModule (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:52974:5)",
+  code: "ERR_MODULE_NOT_FOUND"
+}
+5:45:37 PM [vite] page reload src/routes/about/+page.svelte
+5:47:54 PM [vite] hmr update /src/routes/about/+page.svelte
+5:47:54 PM [vite] Internal server error: Failed to resolve import "svelte-markdown" from "src/routes/about/+page.svelte". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte:2:23
+  6  |  
+  7  |  import * as $ from 'svelte/internal/client';
+  8  |  import Markdown from 'svelte-markdown';
+     |                        ^
+  9  |  import Content from './content.md?raw';
+  10 |  
+      at TransformPluginContext._formatError (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49257:41)
+      at TransformPluginContext.error (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49252:16)
+      at normalizeUrl (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64212:23)
+      at eventLoopTick (ext:core/01_core.js:175:7)
+      at async file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64344:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:64271:7)
+      at async PluginContainer.transform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:49098:18)
+      at async loadAndTransform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:51931:27)
+      at async viteTransformMiddleware (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:62044:24)
+5:48:56 PM [vite] hmr update /src/routes/about/+page.svelte
+5:48:56 PM [vite] ✨ new dependencies optimized: svelte-markdown
+5:48:56 PM [vite] ✨ optimized dependencies changed. reloading
+5:48:58 PM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+5:48:58 PM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+5:48:59 PM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+5:48:59 PM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+5:50:24 PM [vite] hmr update /src/routes/about/+page.svelte
+5:50:57 PM [vite] hmr update /src/routes/about/+page.svelte
+5:51:40 PM [vite] hmr update /src/routes/about/+page.svelte
+5:52:26 PM [vite] hmr update /src/routes/about/+page.svelte
+5:52:53 PM [vite-plugin-svelte] src/routes/catalog/side_panel.svelte:133:4 Unused CSS selector ".mobile_container"
+https://svelte.dev/e/css_unused_selector
+5:54:38 PM [vite] hmr update /src/routes/about/+page.svelte
+5:54:51 PM [vite] hmr update /src/routes/about/+page.svelte
+6:23:08 PM [vite] hmr update /src/routes/about/+page.svelte
+6:23:14 PM [vite] hmr update /src/routes/about/+page.svelte
+6:23:54 PM [vite] hmr update /src/routes/about/+page.svelte
+6:24:11 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+6:24:11 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+6:24:11 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+6:24:11 PM [vite] page reload .svelte-kit/generated/client/nodes/5.js
+6:24:11 PM [vite] page reload .svelte-kit/generated/client/nodes/6.js
+6:24:11 PM [vite] page reload .svelte-kit/generated/client/nodes/8.js
+6:24:11 PM [vite] page reload .svelte-kit/generated/client/nodes/9.js
+6:24:11 PM [vite] page reload .svelte-kit/generated/client/app.js
+6:24:11 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+6:24:11 PM [vite] page reload .svelte-kit/generated/server/internal.js
+6:24:11 PM [vite] page reload .svelte-kit/generated/root.js
+6:24:27 PM [vite] hmr update /src/routes/about/+page.svelte
+6:24:40 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:25:00 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:25:00 PM [vite] hmr update /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:25:21 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+Internal server error: Error while preprocessing /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte - [postcss] /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte.vite-preprocess.css:3:8: Unknown word font-size
+  Plugin: vite-plugin-svelte
+  File: /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte
+      at Input.error (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.decl (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parser.js:236:16)
+      at Parser.other (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parser.js:472:16)
+      at parse (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:36898:59)
+      at eventLoopTick (ext:core/01_core.js:175:7)
+{
+  name: "CssSyntaxError",
+  id: "/home/bittermann/projects/bShop/web/src/routes/about/+page.svelte",
+  message: "Error while preprocessing /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte - [postcss] /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte.vite-preprocess.css:3:8: Unknown word font-size",
+  frame: "",
+  code: "\n//   p {\n//     font-size: 40px;\n//   }\n// ",
+  stack: "CssSyntaxError: Error while preprocessing /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte - [postcss] /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte.vite-preprocess.css:3:8: Unknown word font-size\n" +
+    "    at Input.error (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/input.js:113:16)\n" +
+    "    at Parser.unknownWord (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parser.js:595:22)\n" +
+    "    at Parser.decl (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parser.js:236:16)\n" +
+    "    at Parser.other (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parser.js:401:18)\n" +
+    "    at Parser.parse (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parser.js:472:16)\n" +
+    "    at parse (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parse.js:11:12)\n" +
+    "    at new LazyResult (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/lazy-result.js:165:16)\n" +
+    "    at Processor.process (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/processor.js:53:14)\n" +
+    "    at compileCSS (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:36898:59)\n" +
+    "    at eventLoopTick (ext:core/01_core.js:175:7)",
+  plugin: "vite-plugin-svelte",
+  pluginCode: '<script lang="ts">\n' +
+    "  import SvelteMarkdown from 'svelte-markdown';\n" +
+    "  import Content from './content.md?raw';\n" +
+    "</script>\n" +
+    "\n" +
+    '<div class="container">\n' +
+    "  <SvelteMarkdown source={Content} />\n" +
+    "</div>\n" +
+    "\n" +
+    "// <style>\n" +
+    "//   p {\n" +
+    "//     font-size: 40px;\n" +
+    "//   }\n" +
+    "// </style>\n"
+}
+6:25:44 PM [vite] hmr update /src/routes/about/+page.svelte
+6:27:51 PM [vite] hmr update /src/routes/about/+page.svelte
+[0m[1m[31merror[0m: Uncaught NotFound: No such file or directory (os error 2) about ["/home/bittermann/projects/bShop/web/src/routes/about/content.mdxWXLlu.bck"]
+    at new [0m[1m[3mFsWatcher[0m ([0m[36mext:runtime/40_fs_events.js[0m:[0m[33m24[0m:[0m[33m17[0m)
+    at [0m[1m[3mObject.watchFs[0m ([0m[36mext:runtime/40_fs_events.js[0m:[0m[33m74[0m:[0m[33m10[0m)
+    at [0m[36mext:deno_node/_fs/_fs_watch.ts[0m:[0m[33m57[0m:[0m[33m21[0m
+    at [0m[1m[3mcallback[0m ([0m[36mext:deno_web/02_timers.js[0m:[0m[33m68[0m:[0m[33m7[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m210[0m:[0m[33m13[0m)
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+
+  VITE v5.4.16  ready in 1280 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+6:29:02 PM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+6:29:02 PM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+6:29:05 PM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+6:29:05 PM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+6:29:19 PM [vite] hmr update /src/routes/about/+page.svelte
+6:29:30 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:29:30 PM [vite] hmr update /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:29:33 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:29:33 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:29:41 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:29:41 PM [vite] hmr update /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:29:42 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:29:43 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:29:48 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:29:48 PM [vite] hmr update /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:29:51 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:29:51 PM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:30:52 PM [vite] hmr update /src/routes/about/+page.svelte, /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:30:52 PM [vite] Internal server error: [postcss] /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte?svelte&type=style&lang.css:1:1: Unknown word <script
+  Plugin: vite:css
+  File: /home/bittermann/projects/bShop/web/src/routes/about/+page.svelte?svelte&type=style&lang.css:1:0
+  1  |  <script lang="ts">
+     |  ^
+  2  |    import SvelteMarkdown from 'svelte-markdown';
+  3  |    import Content from './content.md?raw';
+      at Input.error (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.other (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parser.js:437:12)
+      at Parser.parse (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parser.js:472:16)
+      at parse (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (file:///home/bittermann/projects/bShop/web/node_modules/.deno/postcss@8.5.3/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:36898:59)
+      at eventLoopTick (ext:core/01_core.js:175:7)
+      at async TransformPluginContext.transform (file:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/chunks/dep-C3azpbs2.js:36171:11)
+6:25:13 AM [vite] hmr update /src/routes/about/+page.svelte, /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:25:13 AM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:25:15 AM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector "p"
+https://svelte.dev/e/css_unused_selector
+6:25:42 AM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector ".container p"
+https://svelte.dev/e/css_unused_selector
+6:25:42 AM [vite] hmr update /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:25:48 AM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector ".container p"
+https://svelte.dev/e/css_unused_selector
+6:25:50 AM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector ".container p"
+https://svelte.dev/e/css_unused_selector
+6:26:10 AM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector ".container >  p"
+https://svelte.dev/e/css_unused_selector
+6:26:10 AM [vite] hmr update /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:26:11 AM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector ".container >  p"
+https://svelte.dev/e/css_unused_selector
+6:26:13 AM [vite-plugin-svelte] src/routes/about/+page.svelte:11:2 Unused CSS selector ".container p"
+https://svelte.dev/e/css_unused_selector
+6:26:13 AM [vite] hmr update /src/routes/about/+page.svelte?svelte&type=style&lang.css
+Internal server error: src/routes/about/+page.svelte:6:14 Shorthand property assignments are valid only in destructuring patterns
+https://svelte.dev/e/js_parse_error
+  Plugin: vite-plugin-svelte
+  File: src/routes/about/+page.svelte:6:14
+   4 |  
+   5 |    const customRenderers: Partial<Renderers> =  {
+   6 |      paragraph = ({ children }) => {
+                      ^
+   7 |        return `<p style="font-size: 24px;">${children}</p>`;
+   8 |      }
+{
+  name: "CompileError",
+  id: "src/routes/about/+page.svelte",
+  message: "src/routes/about/+page.svelte:6:14 Shorthand property assignments are valid only in destructuring patterns\n" +
+    "https://svelte.dev/e/js_parse_error",
+  frame: " 4 |  \n" +
+    " 5 |    const customRenderers: Partial<Renderers> =  {\n" +
+    " 6 |      paragraph = ({ children }) => {\n" +
+    "                    ^\n" +
+    ' 7 |        return `<p style="font-size: 24px;">${children}</p>`;\n' +
+    " 8 |      }",
+  code: "js_parse_error",
+  stack: "",
+  loc: { line: 6, column: 14, file: "src/routes/about/+page.svelte" },
+  plugin: "vite-plugin-svelte",
+  pluginCode: '<script lang="ts">\n' +
+    "  import SvelteMarkdown, { type Renderers } from 'svelte-markdown';\n" +
+    "  import Content from './content.md?raw';\n" +
+    "\n" +
+    "  const customRenderers: Partial<Renderers> =  {\n" +
+    "    paragraph = ({ children }) => {\n" +
+    '      return `<p style="font-size: 24px;">${children}</p>`;\n' +
+    "    }\n" +
+    "  }\n" +
+    "\n" +
+    "</script>\n" +
+    "\n" +
+    '<div class="container">\n' +
+    "  <SvelteMarkdown\n" +
+    "    source={Content}\n" +
+    "    renderers={customRenderers}\n" +
+    "  />\n" +
+    "</div>\n" +
+    "\n"
+}
+6:37:24 AM [vite] hmr update /src/routes/about/+page.svelte
+6:38:35 AM [vite] hmr update /src/routes/about/+page.svelte
+6:39:11 AM [vite] hmr update /src/routes/about/+page.svelte
+6:39:46 AM [vite] hmr update /src/routes/about/+page.svelte
+6:40:25 AM [vite] hmr update /src/routes/about/+page.svelte
+6:41:44 AM [vite] hmr update /src/routes/about/+page.svelte
+6:42:14 AM [vite] hmr update /src/routes/about/+page.svelte
+6:58:07 AM [vite] hmr update /src/routes/about/+page.svelte, /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:58:23 AM [vite] hmr update /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:58:27 AM [vite] hmr update /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:58:51 AM [vite] hmr update /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:58:58 AM [vite] hmr update /src/routes/about/+page.svelte?svelte&type=style&lang.css
+6:59:57 AM [vite] hmr update /src/routes/footer.svelte
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+
+  VITE v5.4.16  ready in 1561 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+2:12:36 PM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:12:36 PM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:12:38 PM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:12:38 PM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:12:52 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+2:12:52 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+2:12:52 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+2:12:52 PM [vite] page reload .svelte-kit/generated/client/app.js
+2:12:52 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+2:12:52 PM [vite] page reload .svelte-kit/generated/server/internal.js
+2:12:52 PM [vite] page reload .svelte-kit/generated/root.js
+2:13:46 PM [vite] hmr update /src/routes/header.svelte, /src/routes/header.svelte?svelte&type=style&lang.css
+2:13:46 PM [vite-plugin-svelte] src/routes/header.svelte:131:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:13:46 PM [vite-plugin-svelte] src/routes/header.svelte:217:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:13:46 PM [vite-plugin-svelte] src/routes/header.svelte:131:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:13:46 PM [vite-plugin-svelte] src/routes/header.svelte:217:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:13:52 PM [vite-plugin-svelte] src/routes/catalog/side_panel.svelte:133:4 Unused CSS selector ".mobile_container"
+https://svelte.dev/e/css_unused_selector
+2:14:37 PM [vite] hmr update /src/routes/header.svelte
+2:14:37 PM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:14:37 PM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:14:46 PM [vite] hmr update /src/routes/header.svelte, /src/routes/header.svelte?svelte&type=style&lang.css
+2:14:46 PM [vite-plugin-svelte] src/routes/header.svelte:126:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:14:46 PM [vite-plugin-svelte] src/routes/header.svelte:212:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:15:52 PM [vite] hmr update /src/routes/header.svelte
+2:15:52 PM [vite-plugin-svelte] src/routes/header.svelte:130:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:15:52 PM [vite-plugin-svelte] src/routes/header.svelte:216:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:17:30 PM [vite] hmr update /src/routes/header.svelte
+2:17:30 PM [vite-plugin-svelte] src/routes/header.svelte:127:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:17:30 PM [vite-plugin-svelte] src/routes/header.svelte:213:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:18:36 PM [vite] hmr update /src/routes/header.svelte
+2:18:36 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:18:36 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:19:00 PM [vite] hmr update /src/routes/header.svelte, /src/routes/header.svelte?svelte&type=style&lang.css
+2:19:00 PM [vite-plugin-svelte] src/routes/header.svelte:134:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:19:00 PM [vite-plugin-svelte] src/routes/header.svelte:220:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:19:05 PM [vite] hmr update /src/routes/header.svelte, /src/routes/header.svelte?svelte&type=style&lang.css
+2:19:05 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:19:05 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:19:48 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:19:48 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:19:54 PM [vite] hmr update /src/routes/header.svelte
+2:19:55 PM [vite-plugin-svelte] src/routes/header.svelte:132:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:19:55 PM [vite-plugin-svelte] src/routes/header.svelte:218:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:20:01 PM [vite] hmr update /src/routes/header.svelte
+2:20:01 PM [vite-plugin-svelte] src/routes/header.svelte:132:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:20:01 PM [vite-plugin-svelte] src/routes/header.svelte:218:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:20:10 PM [vite-plugin-svelte] src/routes/header.svelte:132:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:20:10 PM [vite-plugin-svelte] src/routes/header.svelte:218:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:20:25 PM [vite] hmr update /src/routes/header.svelte
+2:20:25 PM [vite-plugin-svelte] src/routes/header.svelte:132:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:20:25 PM [vite-plugin-svelte] src/routes/header.svelte:218:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:21:07 PM [vite] hmr update /src/routes/header.svelte
+2:21:07 PM [vite-plugin-svelte] src/routes/header.svelte:135:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:21:07 PM [vite-plugin-svelte] src/routes/header.svelte:221:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:21:16 PM [vite] hmr update /src/routes/header.svelte
+2:21:16 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:21:16 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:21:18 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:21:18 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:21:26 PM [vite] hmr update /src/routes/header.svelte
+2:21:26 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:21:26 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:21:49 PM [vite] hmr update /src/routes/header.svelte
+2:21:49 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:21:49 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:22:10 PM [vite] hmr update /src/routes/header.svelte
+2:22:10 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:22:10 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:22:16 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+2:22:16 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+2:22:16 PM [vite-plugin-svelte] src/routes/catalog/side_panel.svelte:133:4 Unused CSS selector ".mobile_container"
+https://svelte.dev/e/css_unused_selector
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+6:55:59 AM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+6:55:59 AM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+6:55:59 AM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+6:55:59 AM [vite] page reload .svelte-kit/generated/client/nodes/5.js
+6:55:59 AM [vite] page reload .svelte-kit/generated/client/nodes/6.js
+6:55:59 AM [vite] page reload .svelte-kit/generated/client/app.js
+6:55:59 AM [vite] page reload .svelte-kit/generated/client/matchers.js
+6:55:59 AM [vite] page reload .svelte-kit/generated/server/internal.js
+6:55:59 AM [vite] page reload .svelte-kit/generated/root.js
+Port 5173 is in use, trying another one...
+
+  VITE v5.4.16  ready in 1247 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+ENOENT: no such file or directory, stat
+7:01:17 AM [vite] page reload .svelte-kit/generated/client/app.js
+ENOENT: no such file or directory, stat
+7:03:09 AM [vite] page reload .svelte-kit/generated/client/app.js
+[0m[1m[31merror[0m: Uncaught NotFound: No such file or directory (os error 2) about ["/home/bittermann/projects/bShop/web/src/routes/cart/+page.server.tsAHGr9J.bck"]
+    at new [0m[1m[3mFsWatcher[0m ([0m[36mext:runtime/40_fs_events.js[0m:[0m[33m24[0m:[0m[33m17[0m)
+    at [0m[1m[3mObject.watchFs[0m ([0m[36mext:runtime/40_fs_events.js[0m:[0m[33m74[0m:[0m[33m10[0m)
+    at [0m[36mext:deno_node/_fs/_fs_watch.ts[0m:[0m[33m57[0m:[0m[33m21[0m
+    at [0m[1m[3mcallback[0m ([0m[36mext:deno_web/02_timers.js[0m:[0m[33m68[0m:[0m[33m7[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m210[0m:[0m[33m13[0m)
+[0m[1m[31merror[0m: Uncaught NotFound: No such file or directory (os error 2) about ["/home/bittermann/projects/bShop/web/src/routes/cart/+page.server.tsinvetJ.bck"]
+    at new [0m[1m[3mFsWatcher[0m ([0m[36mext:runtime/40_fs_events.js[0m:[0m[33m24[0m:[0m[33m17[0m)
+    at [0m[1m[3mObject.watchFs[0m ([0m[36mext:runtime/40_fs_events.js[0m:[0m[33m74[0m:[0m[33m10[0m)
+    at [0m[36mext:deno_node/_fs/_fs_watch.ts[0m:[0m[33m57[0m:[0m[33m21[0m
+    at [0m[1m[3mcallback[0m ([0m[36mext:deno_web/02_timers.js[0m:[0m[33m68[0m:[0m[33m7[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m210[0m:[0m[33m13[0m)
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+
+  VITE v5.4.16  ready in 1266 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+7:06:13 AM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+7:06:13 AM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+7:06:15 AM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+7:06:15 AM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+7:06:16 AM [vite-plugin-svelte] src/routes/cart/+page.svelte:4:13 Component has unused export property 'data'. If it is for external reference only, please consider using `export const data`
+https://svelte.dev/e/export_let_unused
+7:06:16 AM [vite-plugin-svelte] src/routes/cart/+page.svelte:4:13 Component has unused export property 'data'. If it is for external reference only, please consider using `export const data`
+https://svelte.dev/e/export_let_unused
+7:07:39 AM [vite] page reload src/routes/cart/+page.server.ts
+7:07:51 AM [vite] page reload src/routes/cart/+page.server.ts
+7:08:01 AM [vite] page reload src/routes/cart/+page.server.ts
+7:08:29 AM [vite] page reload src/routes/cart/+page.server.ts
+7:09:11 AM [vite] page reload src/routes/cart/+page.server.ts
+7:09:41 AM [vite] page reload src/routes/cart/+page.server.ts
+7:10:14 AM [vite] changed tsconfig file detected: /home/bittermann/projects/bShop/web/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+7:10:16 AM [vite-plugin-svelte] src/routes/cart/+page.svelte:4:13 Component has unused export property 'data'. If it is for external reference only, please consider using `export const data`
+https://svelte.dev/e/export_let_unused
+7:10:16 AM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+7:10:16 AM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+7:10:18 AM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+7:10:18 AM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+7:10:18 AM [vite-plugin-svelte] src/routes/cart/+page.svelte:4:13 Component has unused export property 'data'. If it is for external reference only, please consider using `export const data`
+https://svelte.dev/e/export_let_unused
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+▲ [WARNING] Non-relative path "src/lib/*" is not allowed when "baseUrl" is not set (did you forget a leading "./"?) [tsconfig.json]
+
+    tsconfig.json:15:4:
+      15 │         "src/lib/*"
+         ╵         ~~~~~~~~~~~
+
+▲ [WARNING] Non-relative path "node_modules/@sveltejs/kit/types/*" is not allowed when "baseUrl" is not set (did you forget a leading "./"?) [tsconfig.json]
+
+    tsconfig.json:18:4:
+      18 │         "node_modules/@sveltejs/kit/types/*"
+         ╵         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You have specified a baseUrl and/or paths in your tsconfig.json which interferes with SvelteKit's auto-generated tsconfig.json. Remove it to avoid problems with intellisense. For path aliases, use `kit.alias` instead: https://svelte.dev/docs/kit/configuration#alias
+
+  VITE v5.4.16  ready in 1223 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+7:11:22 AM [vite] changed tsconfig file detected: /home/bittermann/projects/bShop/web/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+You have specified a baseUrl and/or paths in your tsconfig.json which interferes with SvelteKit's auto-generated tsconfig.json. Remove it to avoid problems with intellisense. For path aliases, use `kit.alias` instead: https://svelte.dev/docs/kit/configuration#alias
+
+  VITE v5.4.16  ready in 1243 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+7:13:53 AM [vite] changed tsconfig file detected: /home/bittermann/projects/bShop/web/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+svelte config changed, restarting vite dev-server. changed file: /home/bittermann/projects/bShop/web/svelte.config.js
+7:15:52 AM [vite] server restarted.
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+
+  VITE v5.4.16  ready in 1296 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+[0m[33mPermission flags have likely been incorrectly set after the script argument.
+To grant permissions, set them before the script argument. For example:
+    deno run --allow-read=. main.js[0m
+[0m[32mTask[0m [0m[36mdev[0m vite dev "--allow-read"
+[0m[1m[31merror[0m: Uncaught (in promise) CACError: Unknown option `--allowRead`
+    at [0m[1m[3mCommand.checkUnknownOptions[0m ([0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m445[0m:[0m[33m17[0m)
+    at [0m[1m[3mCAC.runMatchedCommand[0m ([0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m643[0m:[0m[33m13[0m)
+    at [0m[1m[3mCAC.parse[0m ([0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m582[0m:[0m[33m12[0m)
+    at [0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m915[0m:[0m[33m5[0m
+[0m[33mPermission flags have likely been incorrectly set after the script argument.
+To grant permissions, set them before the script argument. For example:
+    deno run --allow-read=. main.js[0m
+[0m[32mTask[0m [0m[36mdev[0m vite dev "--allow-read"
+[0m[1m[31merror[0m: Uncaught (in promise) CACError: Unknown option `--allowRead`
+    at [0m[1m[3mCommand.checkUnknownOptions[0m ([0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m445[0m:[0m[33m17[0m)
+    at [0m[1m[3mCAC.runMatchedCommand[0m ([0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m643[0m:[0m[33m13[0m)
+    at [0m[1m[3mCAC.parse[0m ([0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m582[0m:[0m[33m12[0m)
+    at [0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m915[0m:[0m[33m5[0m
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+
+  VITE v5.4.16  ready in 1377 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+[0m[33mPermission flags have likely been incorrectly set after the script argument.
+To grant permissions, set them before the script argument. For example:
+    deno run --allow-read=. main.js[0m
+[0m[32mTask[0m [0m[36mdev[0m vite dev "--allow-read=.svelte-kit/types"
+[0m[1m[31merror[0m: Uncaught (in promise) CACError: Unknown option `--allowRead`
+    at [0m[1m[3mCommand.checkUnknownOptions[0m ([0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m445[0m:[0m[33m17[0m)
+    at [0m[1m[3mCAC.runMatchedCommand[0m ([0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m643[0m:[0m[33m13[0m)
+    at [0m[1m[3mCAC.parse[0m ([0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m582[0m:[0m[33m12[0m)
+    at [0m[36mfile:///home/bittermann/projects/bShop/web/node_modules/.deno/vite@5.4.16/node_modules/vite/dist/node/cli.js[0m:[0m[33m915[0m:[0m[33m5[0m
+[0m[32mTask[0m [0m[36mdev[0m vite dev
+
+  VITE v5.4.16  ready in 1317 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+[0m[1m[31merror[0m: Uncaught NotFound: No such file or directory (os error 2) about ["/home/bittermann/projects/bShop/web/src/lib/models/item.tsafbMel.bck"]
+    at new [0m[1m[3mFsWatcher[0m ([0m[36mext:runtime/40_fs_events.js[0m:[0m[33m24[0m:[0m[33m17[0m)
+    at [0m[1m[3mObject.watchFs[0m ([0m[36mext:runtime/40_fs_events.js[0m:[0m[33m74[0m:[0m[33m10[0m)
+    at [0m[36mext:deno_node/_fs/_fs_watch.ts[0m:[0m[33m57[0m:[0m[33m21[0m
+    at [0m[1m[3mcallback[0m ([0m[36mext:deno_web/02_timers.js[0m:[0m[33m68[0m:[0m[33m7[0m)
+    at [0m[1m[3meventLoopTick[0m ([0m[36mext:core/01_core.js[0m:[0m[33m210[0m:[0m[33m13[0m)
+Task dev vite dev
+
+  VITE v5.4.16  ready in 5798 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+  ➜  Network: use --host to expose
+1:22:58 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+1:22:58 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+1:23:02 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+1:23:02 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+1:23:25 PM [vite] hmr update /src/routes/cart/+page.svelte
+1:23:31 PM [vite] hmr update /src/routes/cart/+page.svelte
+TypeError: item.to_string is not a function
+    at _page (/home/bittermann/projects/bShop/web/src/routes/cart/+page.svelte, <anonymous>:19:64)
+    at children (/home/bittermann/projects/bShop/web/.svelte-kit/generated/root.svelte, <anonymous>:69:5)
+    at _layout (/home/bittermann/projects/bShop/web/src/routes/+layout.svelte, <anonymous>:44:2)
+    at Root (/home/bittermann/projects/bShop/web/.svelte-kit/generated/root.svelte, <anonymous>:64:3)
+    at Module.render (/home/bittermann/projects/bShop/web/node_modules/.deno/svelte@5.25.5/node_modules/svelte/src/internal/server/index.js, <anonymous>:151:2)
+    at Function._render (/home/bittermann/projects/bShop/web/node_modules/.deno/svelte@5.25.5/node_modules/svelte/src/legacy/legacy-server.js, <anonymous>:32:40)
+    at Module.render_response (/home/bittermann/projects/bShop/web/node_modules/.deno/@sveltejs+kit@2.20.2/node_modules/@sveltejs/kit/src/runtime/server/page/render.js, <anonymous>:149:33)
+    at async Module.render_page (/home/bittermann/projects/bShop/web/node_modules/.deno/@sveltejs+kit@2.20.2/node_modules/@sveltejs/kit/src/runtime/server/page/index.js, <anonymous>:308:10)
+    at async resolve (/home/bittermann/projects/bShop/web/node_modules/.deno/@sveltejs+kit@2.20.2/node_modules/@sveltejs/kit/src/runtime/server/respond.js, <anonymous>:393:24)
+    at async Module.respond (/home/bittermann/projects/bShop/web/node_modules/.deno/@sveltejs+kit@2.20.2/node_modules/@sveltejs/kit/src/runtime/server/respond.js, <anonymous>:273:22) {
+  stack: "TypeError: item.to_string is not a function\n" +
+    "    at _page (/home/bittermann/projects/bShop/web/src/routes/cart/+page.svelte, <anonymous>:19:64)\n" +
+    "    at children (/home/bittermann/projects/bShop/web/.svelte-kit/generated/root.svelte, <anonymous>:69:5)\n" +
+    "    at _layout (/home/bittermann/projects/bShop/web/src/routes/+layout.svelte, <anonymous>:44:2)\n" +
+    "    at Root (/home/bittermann/projects/bShop/web/.svelte-kit/generated/root.svelte, <anonymous>:64:3)\n" +
+    "    at Module.render (/home/bittermann/projects/bShop/web/node_modules/.deno/svelte@5.25.5/node_modules/svelte/src/internal/server/index.js, <anonymous>:151:2)\n" +
+    "    at Function._render (/home/bittermann/projects/bShop/web/node_modules/.deno/svelte@5.25.5/node_modules/svelte/src/legacy/legacy-server.js, <anonymous>:32:40)\n" +
+    "    at Module.render_response (/home/bittermann/projects/bShop/web/node_modules/.deno/@sveltejs+kit@2.20.2/node_modules/@sveltejs/kit/src/runtime/server/page/render.js, <anonymous>:149:33)\n" +
+    "    at async Module.render_page (/home/bittermann/projects/bShop/web/node_modules/.deno/@sveltejs+kit@2.20.2/node_modules/@sveltejs/kit/src/runtime/server/page/index.js, <anonymous>:308:10)\n" +
+    "    at async resolve (/home/bittermann/projects/bShop/web/node_modules/.deno/@sveltejs+kit@2.20.2/node_modules/@sveltejs/kit/src/runtime/server/respond.js, <anonymous>:393:24)\n" +
+    "    at async Module.respond (/home/bittermann/projects/bShop/web/node_modules/.deno/@sveltejs+kit@2.20.2/node_modules/@sveltejs/kit/src/runtime/server/respond.js, <anonymous>:273:22)"
+}
+1:23:38 PM [vite] hmr update /src/routes/cart/+page.svelte
+3:26:17 PM [vite] hmr update /src/routes/cart/+page.svelte
+3:29:56 PM [vite] page reload src/routes/cart/+page.server.ts
+3:30:37 PM [vite] page reload src/routes/cart/+page.server.ts
+
+> web@0.0.1 dev
+> vite dev
+
+
+  VITE v5.4.16  ready in 3297 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+12:46:10 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+12:46:10 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
+12:46:12 PM [vite-plugin-svelte] src/routes/header.svelte:133:2 Unused CSS selector ".menu-container"
+https://svelte.dev/e/css_unused_selector
+12:46:12 PM [vite-plugin-svelte] src/routes/header.svelte:219:4 Unused CSS selector "#toggle:active .menu-icon"
+https://svelte.dev/e/css_unused_selector
